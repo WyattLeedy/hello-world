@@ -1,0 +1,6 @@
+import requests
+
+url = ‘http://github-awards.com/users?city=san+francisco'
+response = requests.get(url)
+html = response.content
+print html
